@@ -50,7 +50,8 @@ Connect components as follows:
 Install required libraries:
 
 ```bash
-pip install pyserial vgamepad
+pip install flask vgamepad pyserial
+
 ```
 - Install ViGEmBus Driver (required for vgamepad on Windows):
   > Download from: ViGEmBus Releases
