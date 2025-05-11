@@ -68,6 +68,7 @@ pip install flask vgamepad pyserial
 
 - To CHECK if python code is working open this link.
     ![Screenshot 2025-05-11 195110](https://github.com/user-attachments/assets/41ac868f-03a1-4dc3-b3a5-ea2b1db85cf0)
+- ![Screenshot 2025-05-11 195150](https://github.com/user-attachments/assets/d02aef71-f9b1-4c62-8097-ebf3004bfd8f)
 
 ---
 
