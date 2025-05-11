@@ -47,6 +47,7 @@ Install required libraries:
 
 ```bash
 pip install pyserial vgamepad
+```
 Install ViGEmBus Driver (required for vgamepad on Windows):
 
 Download from: ViGEmBus Releases
