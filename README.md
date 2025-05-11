@@ -41,37 +41,33 @@ Connect components as follows:
 
 ### 3. 🐍 Python Environment Setup
 
-> 🐍 Python 3.7 or higher is recommended
+> 🐍 Python 3.10 or higher is recommended
 
 Install required libraries:
 
 ```bash
 pip install pyserial vgamepad
 ```
-Install ViGEmBus Driver (required for vgamepad on Windows):
+- Install ViGEmBus Driver (required for vgamepad on Windows):
+  > Download from: ViGEmBus Releases
 
-Download from: ViGEmBus Releases
+-Run the installer and complete setup.
 
-Run the installer and complete setup.
+---
 
-4. ▶️ Run the Gamepad Emulator
-Save the provided Python script as gamepad_emulator.py. Then run it using:
+### 4. ▶️ Run the Gamepad Emulator
+- Save the provided Arduino sketch run it using Arduino IDE
+- Upload the sketch 
+    ![Screenshot 2025-05-11 194858](https://github.com/user-attachments/assets/c7620eda-177d-4ce6-821f-97aeae919e0b)
 
-bash
-Copy
-Edit
-python gamepad_emulator.py
-Or specify COM port manually (e.g., COM6):
 
-bash
-Copy
-Edit
-python gamepad_emulator.py COM6
-🎥 Demo
+---
+
+### 🎥 Demo
 Add a link to a YouTube video or GIF here
 Example: Watch Demo on YouTube
 
-📖 How It Works
+### 📖 How It Works
 The Arduino reads analog joystick and trigger inputs, as well as button states, and sends them as CSV-formatted data via serial.
 
 The Python script reads the data, processes deadzones, filters, and maps it to Xbox controller inputs using the vgamepad library.
