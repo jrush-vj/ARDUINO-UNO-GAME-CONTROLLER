@@ -16,7 +16,7 @@ Connect components as follows:
 | Left Joystick Y  | A1          |
 | Right Joystick X | A2          |
 | Right Joystick Y | A3          |
-| LT Trigger Axis  | A4          |
+| LT Trigger Axis  | A4          |                                  
 | RT Trigger Axis  | A5          |
 | Button Y         | 2           |
 | Button X         | 3           |
@@ -25,6 +25,7 @@ Connect components as follows:
 | LSW (LB)         | 6           |
 | RSW (RB)         | 7           |
 
+![Screenshot 2025-05-07 230022](https://github.com/user-attachments/assets/23a54c25-384f-444f-b1ee-1e6fffad9a69)
 > 🧰 Tools like [Fritzing](https://fritzing.org/) can help you create a visual wiring diagram.
 
 ---
@@ -73,6 +74,7 @@ pip install pyserial vgamepad
 Add a link to a YouTube video or GIF here
 Example: Watch Demo on YouTube
 
+---
 ### 📖 How It Works
 The Arduino reads analog joystick and trigger inputs, as well as button states, and sends them as CSV-formatted data via serial.
 
@@ -80,7 +82,9 @@ The Python script reads the data, processes deadzones, filters, and maps it to X
 
 The ViGEm driver presents a virtual Xbox 360 controller to the operating system, compatible with most games and emulators.
 
-🔭 Future Scope
+---
+### 🔭 Future Scope
+
 Add Bluetooth using an HC-05 module
 
 Use an OLED or LCD display for battery or mode info
@@ -93,7 +97,7 @@ Enclose in a 3D-printed case
 
 Switch to native USB HID using Arduino Leonardo or Pro Micro
 
-
+---
 ### 👨‍💻 Author
 V Jerush Vijay
 Student, REVA University
