@@ -30,16 +30,19 @@ Connect components as follows:
 ---
 
 ### 2. 💻 Arduino Sketch Upload
-
+- Connect the Arduino UNO Setup
 - Open Arduino IDE.
 - Copy-paste the Arduino code into a new sketch.
 - Select `Arduino Uno` from Tools > Board.
 - Select the correct COM port under Tools > Port.
 - Upload the sketch.
+  
+    ![Screenshot 2025-05-11 194858](https://github.com/user-attachments/assets/c7620eda-177d-4ce6-821f-97aeae919e0b)
 
+- **IMPORTANT NOTE: AFTER UPLOADING SKETCH, MUST CLOSE ARDUINO IDE**  
 ---
 
-### 3. 🐍 Python Environment Setup
+### 3. 🐍 Python Setup
 
 > 🐍 Python 3.10 or higher is recommended
 
@@ -53,13 +56,16 @@ pip install pyserial vgamepad
 
 -Run the installer and complete setup.
 
----
+### ▶️ Run the Gamepad Emulator
 
-### 4. ▶️ Run the Gamepad Emulator
-- Save the provided Arduino sketch run it using Arduino IDE
-- Upload the sketch 
-    ![Screenshot 2025-05-11 194858](https://github.com/user-attachments/assets/c7620eda-177d-4ce6-821f-97aeae919e0b)
+- Run the python file 'gamepad.py'
+    
+- If you see this output **CONGRATULATIONS!!! CODE IS WORKING**
+    ![Screenshot 2025-05-11 195110](https://github.com/user-attachments/assets/4acba8f4-6014-4703-81a6-3f715a11fe38)
+(IF NOT, MAKE SURE 'COM' PORT IS SAME IN BOTH ARDUINO SKETCH AND PYTHON FILE.)
 
+- To CHECK if python code is working open this link.
+    ![Screenshot 2025-05-11 195110](https://github.com/user-attachments/assets/41ac868f-03a1-4dc3-b3a5-ea2b1db85cf0)
 
 ---
 
@@ -74,19 +80,6 @@ The Python script reads the data, processes deadzones, filters, and maps it to X
 
 The ViGEm driver presents a virtual Xbox 360 controller to the operating system, compatible with most games and emulators.
 
-🧠 Educational Benefits
-Perfect for students and hobbyists to learn:
-
-Serial communication between hardware and Python
-
-Real-time analog signal processing (filtering & deadzones)
-
-USB gamepad emulation using ViGEm and vgamepad
-
-Arduino programming with analog and digital inputs
-
-Python integration for real-time device interfacing
-
 🔭 Future Scope
 Add Bluetooth using an HC-05 module
 
@@ -100,16 +93,8 @@ Enclose in a 3D-printed case
 
 Switch to native USB HID using Arduino Leonardo or Pro Micro
 
-📁 Project Files
-File	Description
-arduino_controller.ino	Arduino sketch for reading inputs
-gamepad_emulator.py	Python script for Xbox gamepad emulation
-README.md	This documentation file
 
-👨‍💻 Author
-[Your Name]
+### 👨‍💻 Author
+V Jerush Vijay
 Student, REVA University
-GitHub: your-username
 
-📜 License
-MIT License – Free to use, modify, and share.
