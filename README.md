@@ -73,9 +73,7 @@ pip install flask vgamepad pyserial
 ---
 
 ### 🎥 Demo
-Add a link to a YouTube video or GIF here
-Example: Watch Demo on YouTube
-
+Watch Demo: https://www.linkedin.com/posts/jerush-vijay-8222a5317_engineeringexpo2025-revauniversity-iot-activity-7326819582642372608-9gQ6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFBPmFoBs_TgvNwKAzwvVH910E_YEb8DW-E
 ---
 ### 📖 How It Works
 The Arduino reads analog joystick and trigger inputs, as well as button states, and sends them as CSV-formatted data via serial.
